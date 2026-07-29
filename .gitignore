@@ -1,0 +1,17 @@
+# misc
+Thumbs.db
+.DS_Store
+._*
+__MACOSX/
+.vscode/
+.idea/
+*~
+[._]*.sw[a-p]
+.\#*
+\#*\#
+*.bak
+*.tmp
+*.orig
+*.rej
+*.patch
+*.diff
