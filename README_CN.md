@@ -1,6 +1,6 @@
 # X2 URDF 模型
 
-[English](README.md)
+[English](README.md) | [GitHub](https://github.com/AgibotTech/agibot_x2_urdf)
 
 灵犀 X2 系列人形机器人 URDF 模型。
 
@@ -9,15 +9,15 @@
 | 机型 | 目录 | 说明 |
 |------|------|------|
 | X2 旗舰版 | `X2_URDF-v1.3.0/` | 旗舰版 |
-| X2 旗舰焕新版 | `X2_URDF-v1.4.0/X2-Ultra.*` | 电机升级，结构加强 |
-| X2 人人造 | — | 即将上线 |
+| X2 旗舰焕新版 | `X2_URDF-v1.4.0/` | 电机升级，结构加强 |
+| X2 人人造 | `X2_URDF-v1.4.0/` | 教育机型 |
 
 ## 确认机型
 
 查看机器人后颈的铭牌：
-- 如果最上面一行结尾为 **"X2 Ultra"** → 使用 `X2_URDF-v1.3.0/x2_ultra.*`
-- 如果最上面一行结尾为 **"X2 Ultra -N"** → 使用 `X2_URDF-v1.4.0/X2-Ultra.*`
-- 如果最上面一行结尾为 **"X2 EDU"** → X2 人人造 URDF 模型即将上线，请关注仓库更新。
+- 如果最上面一行结尾为 **"X2 Ultra"** → 使用 `X2_URDF-v1.3.0/`（`x2_*` 文件）
+- 如果最上面一行结尾为 **"X2 Ultra -N"** → 使用 `X2_URDF-v1.4.0/`（`X2-Ultra.*` 文件）
+- 如果最上面一行结尾为 **"X2 EDU"** → 使用 `X2_URDF-v1.4.0/`（`X2-EDU.*` 文件）
 
 ## 目录结构
 
@@ -31,15 +31,20 @@
 │   ├── scene.xml                       # 场景文件
 │   ├── meshes/                         # 网格模型（STL）
 │   ├── visual/                         # 预览图片
+│   ├── README_CN.md
 │   └── README.md
 │
-└── X2_URDF-v1.4.0/                     # X2 旗舰焕新版
+└── X2_URDF-v1.4.0/                     # X2 旗舰焕新版 & X2 人人造
     ├── X2-Ultra.urdf                   # X2 旗舰焕新版 — 完整模型
     ├── X2-Ultra_simple_collision.urdf  # X2 旗舰焕新版 — 简化碰撞体
     ├── X2-Ultra.xml                    # X2 旗舰焕新版 — MuJoCo 格式
+    ├── X2-EDU.urdf                     # X2 人人造 — 完整模型
+    ├── X2-EDU_simple_collision.urdf    # X2 人人造 — 简化碰撞体
+    ├── X2-EDU.xml                      # X2 人人造 — MuJoCo 格式
     ├── scene.xml                       # 场景文件
     ├── meshes/                         # 网格模型（STL）
     ├── visual/                         # 预览图片
+    ├── README_CN.md
     └── README.md
 ```
 

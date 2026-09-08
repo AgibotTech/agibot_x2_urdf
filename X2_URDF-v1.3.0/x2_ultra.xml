@@ -57,10 +57,6 @@
     <mesh name="head_yaw_link"  file="head_yaw_link.STL"/>
     <mesh name="head_pitch_link"  file="head_pitch_link.STL"/>
     <mesh name="imu_in_head_link"  file="imu_in_head_link.STL"/>
-    <!-- <mesh name="RGBD_in_head_link"  file="rgbd_in_head_link.STL"/>
-    <mesh name="RGB_binocular_link"  file="rgbd_binocular_link.STL"/>
-    <mesh name="RGB_rear_link"  file="rgbd_rear_link.STL"/>
-    <mesh name="RGB_Forward_link"  file="rgbd_forward_link.STL"/> -->
   </asset>
 
   <worldbody>

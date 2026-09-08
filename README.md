@@ -1,6 +1,6 @@
 # X2 URDF Models
 
-[中文文档](README_CN.md)
+[中文文档](README_CN.md) | [GitHub](https://github.com/AgibotTech/agibot_x2_urdf)
 
 URDF models for the AgiBot X2 series humanoid robots.
 
@@ -9,15 +9,15 @@ URDF models for the AgiBot X2 series humanoid robots.
 | Model | Directory | Description |
 |-------|-----------|-------------|
 | X2 Ultra | `X2_URDF-v1.3.0/` | Flagship model |
-| X2 Ultra (new version) | `X2_URDF-v1.4.0/X2-Ultra.*` | Upgraded motors, reinforced structure |
-| X2 EDU | — | X2 人人造 (coming soon) |
+| X2 Ultra(new version) | `X2_URDF-v1.4.0/` | Upgraded motors, reinforced structure |
+| X2 EDU | `X2_URDF-v1.4.0/` | Educational variant |
 
 ## Identifying Your Robot
 
 Check the nameplate on the back of your robot's neck:
-- If the top line ends with **"X2 Ultra"** → use `X2_URDF-v1.3.0/x2_ultra.*`
-- If the top line ends with **"X2 Ultra -N"** → use `X2_URDF-v1.4.0/X2-Ultra.*`
-- If the top line ends with **"X2 EDU"** → X2 EDU URDF model is coming soon, please check back for updates.
+- If the top line ends with **"X2 Ultra"** → use `X2_URDF-v1.3.0/` (`x2_*` files)
+- If the top line ends with **"X2 Ultra -N"** → use `X2_URDF-v1.4.0/` (`X2-Ultra.*` files)
+- If the top line ends with **"X2 EDU"** → use `X2_URDF-v1.4.0/` (`X2-EDU.*` files)
 
 ## Directory Structure
 
@@ -31,15 +31,20 @@ Check the nameplate on the back of your robot's neck:
 │   ├── scene.xml                       # Scene file
 │   ├── meshes/                         # Mesh files (STL)
 │   ├── visual/                         # Preview images
+│   ├── README_CN.md
 │   └── README.md
 │
-└── X2_URDF-v1.4.0/                     # X2 Ultra (new version)
-    ├── X2-Ultra.urdf                   # X2 Ultra (new version) — full model
-    ├── X2-Ultra_simple_collision.urdf  # X2 Ultra (new version) — simplified collision
-    ├── X2-Ultra.xml                    # X2 Ultra (new version) — MuJoCo format
+└── X2_URDF-v1.4.0/                     # X2 Ultra(new version) & X2 EDU
+    ├── X2-Ultra.urdf                   # X2 Ultra(new version) — full model
+    ├── X2-Ultra_simple_collision.urdf  # X2 Ultra(new version) — simplified collision
+    ├── X2-Ultra.xml                    # X2 Ultra(new version) — MuJoCo format
+    ├── X2-EDU.urdf                     # X2 EDU — full model
+    ├── X2-EDU_simple_collision.urdf    # X2 EDU — simplified collision
+    ├── X2-EDU.xml                      # X2 EDU — MuJoCo format
     ├── scene.xml                       # Scene file
     ├── meshes/                         # Mesh files (STL)
     ├── visual/                         # Preview images
+    ├── README_CN.md
     └── README.md
 ```
 
