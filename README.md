@@ -38,6 +38,8 @@ Check the nameplate on the back of your robot's neck:
     ├── X2-Ultra.urdf                   # X2 Ultra(new version) — full model
     ├── X2-Ultra_simple_collision.urdf  # X2 Ultra(new version) — simplified collision
     ├── X2-Ultra.xml                    # X2 Ultra(new version) — MuJoCo format
+    ├── X2-Ultra_omnihand.urdf          # X2 Ultra(new version) — dexterous hand variant
+    ├── X2-Ultra_omnipicker.urdf        # X2 Ultra(new version) — gripper variant
     ├── X2-EDU.urdf                     # X2 EDU — full model
     ├── X2-EDU_simple_collision.urdf    # X2 EDU — simplified collision
     ├── X2-EDU.xml                      # X2 EDU — MuJoCo format

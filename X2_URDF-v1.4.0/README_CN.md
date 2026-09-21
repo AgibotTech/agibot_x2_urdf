@@ -11,6 +11,8 @@
 | **"X2 Ultra -N"** | X2 旗舰焕新版 | `X2-Ultra.urdf`、`X2-Ultra_simple_collision.urdf`、`X2-Ultra.xml` |
 | **"X2 EDU"** | X2 人人造 | `X2-EDU.urdf`、`X2-EDU_simple_collision.urdf`、`X2-EDU.xml` |
 
+X2 旗舰焕新版另提供末端执行器变体：`X2-Ultra_omnihand.urdf`（灵巧手）、`X2-Ultra_omnipicker.urdf`（夹爪）。
+
 ## 文件清单
 
 ```
@@ -18,6 +20,8 @@
 ├── X2-Ultra.urdf                   # X2 旗舰焕新版 — 完整模型
 ├── X2-Ultra_simple_collision.urdf  # X2 旗舰焕新版 — 简化碰撞体
 ├── X2-Ultra.xml                    # X2 旗舰焕新版 — MuJoCo 格式
+├── X2-Ultra_omnihand.urdf          # X2 旗舰焕新版 — 灵巧手末端变体
+├── X2-Ultra_omnipicker.urdf        # X2 旗舰焕新版 — 夹爪末端变体
 ├── X2-EDU.urdf                     # X2 人人造 — 完整模型
 ├── X2-EDU_simple_collision.urdf    # X2 人人造 — 简化碰撞体
 ├── X2-EDU.xml                      # X2 人人造 — MuJoCo 格式
